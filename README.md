@@ -1,8 +1,15 @@
-# aspnetcore_dockerized
-A simple asp.net core application to tryout dockers with mssql and asp.net core
+# Running this App
+To run this demo, first create a folder, cd into it, and then git clone the project.
+```
+git clone https://github.com/sshheye/aspnetcore_dockerized
+```
 
-
-Running this App
-Run these commands to start the containers:
+Then run these commands to start the containers:
+```
 cd webapp
 docker-compose up
+```
+
+Then you can access the web app at http://localhost:8000.
+
+
